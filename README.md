@@ -51,20 +51,20 @@ uv run uvicorn app.main:app --reload
 
 ### 1. Регистрация пользователя
 Успешная регистрация с использованием требуемого формата email (`student_surname@email.com`):
-![Регистрация пользователя](screenshots/1_Регистрация_пользователя.jpg)
+![Регистрация пользователя](screenshots/1_registration.png)
 
 ### 2. Авторизация через Swagger
 Получение JWT-токена и успешная авторизация:
-![Авторизация через Swagger](screenshots/2_Авторизация_через_Swagger.jpg)
+![Авторизация через Swagger](screenshots/2_auth_swagger.png)
 
 ### 3. Вызов POST /chat
 Отправка запроса к языковой модели и успешное получение ответа:
-![Вызов POST chat](screenshots/3_Вызов_POST_chat.jpg)
+![Вызов POST chat](screenshots/3_post_chat.png)
 
 ### 4. Получение истории через GET /chat/history
 Проверка сохранения истории сообщений в базе данных (выводятся роли `user` и `assistant`):
-![Получение истории](screenshots/4_Получение_истории_GET_chat_history.jpg)
+![Получение истории](screenshots/4_get_history.png)
 
 ### 5. Удаление истории через DELETE /chat/history
 Успешная очистка истории переписки текущего пользователя (возвращается код 204):
-![Удаление истории](screenshots/5_Удаление_истории_DELETE_chat_history.jpg)
+![Удаление истории](screenshots/5_delete_history.png)
